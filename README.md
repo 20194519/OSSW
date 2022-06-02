@@ -175,7 +175,7 @@ kill `ps -ef | grep 프로세스 이름 | grep -v grep | awk '{print $2}'`
 !<img src="https://user-images.githubusercontent.com/97158484/171387509-db367d03-9676-4a90-b4cd-17b4c54d9516.PNG" width="50%" height="50%"/>
  
  
- _→ 명령모드에서 매크로 시작하면 아래 recoding @a 표시가 뜨면서 매크로 기록이 시작됨_
+ _→ 명령모드에서 매크로 시작하면 아래 recording @a 표시가 뜨면서 매크로 기록이 시작됨_
  
  
  <레지스터에 저장된 매크로 확인>
