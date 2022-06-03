@@ -43,7 +43,7 @@
 > process status의 약자로 현재 실행중인 프로세스 목록과 상태를 보여줌
 
 !<img src="https://user-images.githubusercontent.com/97158484/171336058-093c0115-5de2-4b25-a68e-2e4ad8a4ab6c.PNG" width="40%" height="40%"/>
- _→ 기본적인 내용만 출력(PID, TTY, TIME, CMD)_
+ _→ 기본적인 내용(PID, TTY, TIME, CMD)만 출력함_
 
  - **주요 옵션**
 
@@ -66,7 +66,7 @@
  _→ full format 으로 출력(UID, PID, PPID, TTY 등을 표시)_
 
 #### <ps와 top의 차이점>
- - ps는 한 시점에 proc에서 검색한 CPU 사용량이고 top은 proc에서 일정 주기로 합산해서 CPU 사용률을 출력
+ - ps는 한 시점에 proc에서 검색한 CPU 사용량이고 top은 proc에서 일정 주기로 합산해서 CPU 사용률을 출력함
 ---
 ### 3) jobs 명령어
 > 작업의 상태를 표시하는 명령어로 현재 쉘 세션에서 실행시킨 백 그라운드 작업의 목록이 출력됨
@@ -105,7 +105,7 @@
 |-|현재 진행중인 job이 끝나면 바로 다음에 수행될 프로세스|
 
 !<img src="https://user-images.githubusercontent.com/97158484/171382545-6de162a3-3cf5-4bcd-b977-db3de07da6d3.PNG" width="50%" height="50%"/>
- _→ 백그라운드에서 명령어 실행하기 위해 & 붙임_
+ _→ 백그라운드에서 명령어 실행하기 위해 '&' 붙임_
  
 ---
 ### 4) kill 명령어
@@ -178,7 +178,7 @@ kill `ps -ef | grep 프로세스 이름 | grep -v grep | awk '{print $2}'`
  _→ 명령모드에서 매크로 시작하면 아래 recording @a 표시가 뜨면서 매크로 기록이 시작됨_
  
  
- <레지스터에 저장된 매크로 확인>
+ #### <레지스터에 저장된 매크로 확인>
 
 
 !<img src="https://user-images.githubusercontent.com/97158484/171389479-0afcf700-1e95-47bc-b8ca-36ec88c6d204.PNG" width="60%" height="60%"/>
